@@ -7,6 +7,7 @@ function App() {
         setcounter(counter + 1)
     }
     function decrease() {
+        if(counter == 0) return
        setcounter(counter - 1)
     }  
     return (

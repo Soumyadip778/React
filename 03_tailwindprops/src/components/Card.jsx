@@ -31,8 +31,7 @@ const features = [
       icon: "🔗"
     }
   ];
-function Card(props) {
-  console.log(props);
+function Card() {
   
     return(
         <>

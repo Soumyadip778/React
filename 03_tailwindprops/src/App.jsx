@@ -7,7 +7,7 @@ function App() {
 
   return(
     <>
-    <Card />
+    <Card channel="Soumyadip"/>
     <Card />
     </>
   )

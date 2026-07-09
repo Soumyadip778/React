@@ -11,7 +11,7 @@ function App() {
 // }
 const new_Song = {
   Name : "Waka Waka",
-  Artist : "Shakira"
+  // Artist : "Shakira"
 }
   return(
     <>

@@ -2,7 +2,7 @@
 "use client";
 import React, { useState } from "react";
 
-function Music({Details}) {
+function Music({Details} /* always better to set the default value here for better readability : Name = "Unknown Song"*/) {
      
     return(
         <div className="relative block group  ">
@@ -10,7 +10,7 @@ function Music({Details}) {
       <div className="transition bg-black border-2 border-white rounded-lg group-hover:-translate-x-2 group-hover:-translate-y-2">
         <div className="p-6 ">
           <p className="mt-4 text-lg font-medium text-white">{Details.Name}</p>
-          <p className="mt-1 text-xs text-white">{Details.Artist}</p>
+          <p className="mt-1 text-xs text-white">{Details.Artist || "Unknown Artist"}</p>
         </div>
       </div>
     </div>
